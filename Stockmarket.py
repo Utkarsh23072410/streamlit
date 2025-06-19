@@ -9,3 +9,4 @@ data =yf.download(ticker_symbol,start=start_date,end=end_date)
 
 
 st.write(data) 
+st.line_chart(data["Close"])
